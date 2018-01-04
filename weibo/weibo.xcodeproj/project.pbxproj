@@ -14,6 +14,7 @@
 		0238F5761FFDBF1000CAAA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0238F5751FFDBF1000CAAA68 /* Assets.xcassets */; };
 		0238F5791FFDBF1000CAAA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0238F5771FFDBF1000CAAA68 /* LaunchScreen.storyboard */; };
 		0238F57C1FFDBF1000CAAA68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0238F57B1FFDBF1000CAAA68 /* main.m */; };
+		0238F5841FFDCB4E00CAAA68 /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0238F5831FFDCB4E00CAAA68 /* cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		0238F5781FFDBF1000CAAA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0238F57A1FFDBF1000CAAA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0238F57B1FFDBF1000CAAA68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0238F5821FFDCB4E00CAAA68 /* cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		0238F5831FFDCB4E00CAAA68 /* cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				0238F5771FFDBF1000CAAA68 /* LaunchScreen.storyboard */,
 				0238F57A1FFDBF1000CAAA68 /* Info.plist */,
 				0238F57B1FFDBF1000CAAA68 /* main.m */,
+				0238F5821FFDCB4E00CAAA68 /* cat.h */,
+				0238F5831FFDCB4E00CAAA68 /* cat.m */,
 				0238F5721FFDBF1000CAAA68 /* weibo.xcdatamodeld */,
 			);
 			path = weibo;
@@ -145,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0238F5841FFDCB4E00CAAA68 /* cat.m in Sources */,
 				0238F5741FFDBF1000CAAA68 /* weibo.xcdatamodeld in Sources */,
 				0238F56E1FFDBF1000CAAA68 /* ViewController.m in Sources */,
 				0238F57C1FFDBF1000CAAA68 /* main.m in Sources */,
